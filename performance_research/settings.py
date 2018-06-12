@@ -407,11 +407,7 @@ USER_GETUI = False
 # =====================================
 # ===== Production Configurations =====
 # =====================================
-from __future__ import absolute_import, unicode_literals
-
 import djcelery
-
-from .common import *
 
 SECRET_KEY = env("DJANGO_SECRET_KEY", default='h!o1d!_=p7m1)02i^atq&saq$m0**f(+22q_54azwr62ytqxwg')
 
