@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'performance',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -74,10 +76,10 @@ WSGI_APPLICATION = 'performance_research.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mh_test',
+        'NAME': 'performance',
         'USER': 'postgres',
         'PASSWORD': 'Mxchip@2018postgres',
-        'HOST': 'rm-2zevc81xu6gi84bee.pg.rds.aliyuncs.com',
+        'HOST': 'rm-2zecdr93ug6ij58n0.pg.rds.aliyuncs.com',
         'PORT': '3433',
     }
 }
