@@ -20,6 +20,6 @@ from performance import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^performance/', views.performance),
-    url(r'^performance_rf/', views.PerformanceRfView.as_view()),
-    url(r'^performance_db/', views.PerformanceDbView.as_view()),
+    # url(r'^performance_rf/', views.PerformanceRfView.as_view()),
+    # url(r'^performance_db/', views.PerformanceDbView.as_view()),
 ]
